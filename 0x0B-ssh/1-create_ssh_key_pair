@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Generate RSA key pair with passphrase protection
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/school -N "betty"
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/school -N betty
 
