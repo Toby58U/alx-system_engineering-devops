@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# server-02 login
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school 
+
+#ssh-add ~/alx-system_engineering-devops/0x04-loops_conditions_and_parsing/0-RSA_public_key.pub
+
+ssh ubuntu@52.87.155.22
